@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28728" started-at="2020-10-03T18:21:18 IST" finished-at="2020-10-03T18:21:47 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="28728" started-at="2020-10-03T18:21:18 IST" finished-at="2020-10-03T18:21:47 IST">
+      <class name="com.DemoTest.org.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.DemoTest.org.LoginTest@1786dec2]" name="setup" is-config="true" duration-ms="10612" started-at="2020-10-03T18:21:18 IST" finished-at="2020-10-03T18:21:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="toLogin(java.lang.String, java.lang.String)[pri:0, instance:com.DemoTest.org.LoginTest@1786dec2]" name="toLogin" duration-ms="16524" started-at="2020-10-03T18:21:30 IST" data-provider="userdata" finished-at="2020-10-03T18:21:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.DemoTest.org.LoginTest@1786dec2]" name="teardown" is-config="true" duration-ms="718" started-at="2020-10-03T18:21:46 IST" finished-at="2020-10-03T18:21:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.DemoTest.org.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
